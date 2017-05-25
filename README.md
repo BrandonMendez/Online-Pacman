@@ -1,0 +1,9 @@
+# Online-Pacman
+Another assignment given by the COMP476 class offered at the University of Concordia.
+	In order to run the game it must either be ran as an executable file or from Unity itself. It being ran in Unity it must be ran from the Lobby scene saved in the Scene folder. The game must be running exactly twice in order to play. It only supports two players, no more, no less. This can however be changed if required. 
+	
+  In order to play with two players, one player must first click on the "Play and Host" button located at the bottom left of the user interface acting as the network lobby of the game. When done, the player will enter a lobby where they will wait for the second player to join. While in the lobby the player must not change their naming and changing their color does not have an effect on the game. In order for the second player to join, they must enter the I.P address of player 1 one into the field at the bottom left of the screen. Once done player 2 will click join and will enter the lobby that player 1 was waiting in. When there are two players, they can click the ready button. Once both players are ready a countdown will begin that will place them in the game. 
+	
+  Once the game starts, for purposes of fairness both players will start at the exact same position. In order to keep the atmosphere of the game more nostalgic, both players use a yellow packman. Each pacdot eaten rewards the player with 1 point. The orange flashing dots at the four corners of the stage temporarily boost the players speed. Once all the pacdots are eaten the player with the most points will win the game.
+	
+  The ghost of the game are not present. The pathfinding for the ghosts had been implemented and fully worked. They were able to pathfind their way to the player however it caused the game to freeze therefore making the game completely unplayable. Therefore the ghosts were removed from the game. 
